@@ -1,5 +1,70 @@
-# TypeScript
+# **TypeScript**
 
+* [인프런 ZeroCho ts-all-in-one](https://github.com/ZeroCho/ts-all-in-one#readme)
+* [typescript 공식문서](https://www.typescriptlang.org/)
+* [typescript 플레이그라운드](https://www.typescriptlang.org/play)
+* [typescript 핸드북 필독](https://www.typescriptlang.org/docs/handbook/intro.html)
+* [typescript 버전 수정 내역](https://www.typescriptlang.org/docs/handbook/release-notes/overview.html)
+
+## **설치하기**
+* 노드 프로젝트 시작
+	```
+	npm init -y
+	```
+
+* 타입스크립트 설치
+	```
+	npm init typescript
+	```
+
+* tsc 실행
+	```
+	npx tsc
+	```
+
+* tsconfig.json 생성
+	```
+	npx tsc --init
+	```
+
+## **기능 살펴보기**
+* 타입 검사(에디터 사용 시 불필요)  
+	타입 검사와 컴파일은 변개의 기능히다. 타입 에러가 있어도 컴파일은 가능하다.
+	```
+	npx tsc --noEmit
+	```
+
+* JS로 컴파일
+	```
+	npx tsc
+	```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
 ## 프로젝트 이용자라면 모듈 설치부터
 ```
 npm install
@@ -54,3 +119,4 @@ npm install
 		"include": ["src/**/*"]
 	}
 	```
+-->
