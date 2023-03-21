@@ -1,4 +1,5 @@
-const a: number = 5;
+// const a: number = 5;	//	타입 추론: 타입스크립트는 알아서 타입을 추론한다. 타입을 지워도 마우스를 올리면 타입이 지정되어 있다.
+const a = 5;
 const b: string = 'hello world';
 const c: boolean = true;
 const d: undefined = undefined;
@@ -24,7 +25,7 @@ const add2: Add2 = (x, y) => x + y;
 const obj: {lat: number,lon: number} = {
 	lat: 37.5,
 	lon: 127.5
-}
+};
 
 const arr1: string[] = ['123', '456'];
 const arr2: number[] = [123, 456];
