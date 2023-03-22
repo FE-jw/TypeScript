@@ -31,3 +31,17 @@ const arr1: string[] = ['123', '456'];
 const arr2: number[] = [123, 456];
 const arr3: Array<number> = [123, 456];	// 제네릭
 const arr4: [number, number, string] = [123, 456, 'hello'];	// 튜플
+
+// const head = document.querySelector('#head');
+
+let arr5: string[] = [];
+let arr6: Array<string> = [];
+function rest(...agrs: string[]){
+	console.log(agrs);
+}
+
+rest('1', '2', '3');	// '1', '2', '3'
+
+const tuple: [string, number] = ['1', 1];
+// tuple[2] = 'hello'	// 에러
+tuple.push('hello');	// 에러는 안 뜨지만 조심
