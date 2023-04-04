@@ -45,3 +45,15 @@ rest('1', '2', '3');	// '1', '2', '3'
 const tuple: [string, number] = ['1', 1];
 // tuple[2] = 'hello'	// 에러
 tuple.push('hello');	// 에러는 안 뜨지만 조심
+
+
+// enum
+const enum EDirection	{
+	Up,	// Up = 3 으로 지정하면 3부터 시작
+	Down,
+	Left,
+	Right
+}
+
+const enum_1 = EDirection.Up;
+const enum_2 = EDirection.Left;
